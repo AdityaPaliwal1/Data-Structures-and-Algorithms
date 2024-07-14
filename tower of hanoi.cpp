@@ -4,6 +4,9 @@ using namespace std;
 //tower of HANOI function implementation
 void TOH(int n,char Sour, char Aux,char Des)
 { 
+	if(n==0){
+		cout<<"invalid Number";
+	}
 	if(n==1)
 	{
 		cout<<"Move Disk "<<n<<" from "<<Sour<<" to "<<Des<<endl;
